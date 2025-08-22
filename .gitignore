@@ -19,3 +19,4 @@ terraform.rc
 terraform.tfstate
 terraform.tfstate.backup
 scripts/kubeconfig-kind.yaml
+.terraform.tfstate.lock.info
