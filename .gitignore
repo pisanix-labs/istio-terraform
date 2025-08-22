@@ -1,0 +1,21 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore variables files
+*.auto.tfvars
+
+# Ignore override files
+*.tfoverride
+
+# Ignore environment-specific files
+.envrc
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# For kind local cluster, remove the state and lock
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+scripts/kubeconfig-kind.yaml

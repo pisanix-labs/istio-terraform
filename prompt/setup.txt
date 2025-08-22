@@ -1,0 +1,4 @@
+Crie o projeto em terraform na versão v1.12.2 utilizando as boas praticas e de maneira modular, esse projeto deve
+- Instalar o Istio e realizar as devidas configurações como Ingress do cluster
+- Instalar e configurar o Kiali integrando com o Istio
+- Instale um NGinx e configure uma rota publica
